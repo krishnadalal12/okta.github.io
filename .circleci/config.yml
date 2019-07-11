@@ -30,6 +30,6 @@ jobs:
           command: |
             sudo apt-get -y -qq update
             sudo apt-get -y -qq install awscli
-      - deploy:
-          name: deploy
-          command: ./scripts/publish-s3.sh
+            #      - deploy:
+            #          name: deploy
+            #          command: ./scripts/publish-s3.sh
